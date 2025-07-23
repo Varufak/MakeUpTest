@@ -15,7 +15,11 @@ public class MakeUpTabs : MonoBehaviour
         allTabs = new List<MakeUpTabs>(transform.parent.GetComponentsInChildren<MakeUpTabs>());
         image = GetComponent<Image>();
 		rectTransform = GetComponent<RectTransform>();
-    }
+		if (gameObject.name == "PowderTab")
+		{
+			SetSelected(true);
+		}
+	}
 
 	public void TabClicked()
 	{
@@ -26,7 +30,7 @@ public class MakeUpTabs : MonoBehaviour
 		SetSelected(true);
 	}
 
-	public void SetSelected(bool selectedCond)
+	private void SetSelected(bool selectedCond)
 	{
 		if (selectedCond)
 		{
