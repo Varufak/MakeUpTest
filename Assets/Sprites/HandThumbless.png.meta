@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 3115718ff6f1bc04ba1d8f2db7dac7ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5062656432526149641
+    second: HandThumbless_0
+  - first:
+      213: 9050799600867229501
+    second: HandThumbless_1
+  - first:
+      213: 4361333555727525139
+    second: HandThumbless_2
+  - first:
+      213: 698393502445735911
+    second: HandThumbless_3
+  - first:
+      213: -7266382582357703258
+    second: HandThumbless_4
+  - first:
+      213: -4315336851160220756
+    second: HandThumbless_5
+  - first:
+      213: 9147142114172906844
+    second: HandThumbless_6
+  - first:
+      213: -7375346843361913471
+    second: HandThumbless_7
+  - first:
+      213: -7063027874829280048
+    second: HandThumbless_8
+  - first:
+      213: 6359403237299698714
+    second: HandThumbless_9
+  - first:
+      213: 788448530863947272
+    second: HandThumbless_10
+  - first:
+      213: -3906744811446093207
+    second: HandThumbless_11
+  - first:
+      213: 858107290195927764
+    second: HandThumbless_12
+  - first:
+      213: 7375091044799849478
+    second: HandThumbless_13
+  - first:
+      213: 5781814033055676368
+    second: HandThumbless_14
+  - first:
+      213: -1295158315668815671
+    second: HandThumbless_15
+  - first:
+      213: -3138772909088669580
+    second: HandThumbless_16
+  - first:
+      213: 7630092250045065734
+    second: HandThumbless_17
+  - first:
+      213: -7458513781202287781
+    second: HandThumbless_18
+  - first:
+      213: -8960039760454313772
+    second: HandThumbless_19
+  - first:
+      213: 2270304589735743105
+    second: HandThumbless_20
+  - first:
+      213: -2654121633302738698
+    second: HandThumbless_21
+  - first:
+      213: -7394251427049647357
+    second: HandThumbless_22
+  - first:
+      213: -3656837246101146024
+    second: HandThumbless_23
+  - first:
+      213: -3160245616250475600
+    second: HandThumbless_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HandThumbless_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 289
+        width: 182
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7be673cc4ddb9b0800000000000000
+      internalID: -5062656432526149641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 322
+        width: 173
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f30f6a846ea9d70800000000000000
+      internalID: 9050799600867229501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 211
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3156128f2c1968c30800000000000000
+      internalID: 4361333555727525139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 211
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef08b2b03131b900800000000000000
+      internalID: 698393502445735911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 215
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5cb705a8f982b90800000000000000
+      internalID: -7266382582357703258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 217
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab317c5ff7dc14c0800000000000000
+      internalID: -4315336851160220756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 215
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5daa490a4d21fe70800000000000000
+      internalID: 9147142114172906844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 145
+        width: 71
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1855d1a4f1185a990800000000000000
+      internalID: -7375346843361913471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 148
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc5e12c1951bfd90800000000000000
+      internalID: -7063027874829280048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 145
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cb7befc83214850800000000000000
+      internalID: 6359403237299698714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 147
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ef2dde2c121fa00800000000000000
+      internalID: 788448530863947272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 80
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ab7a5fa4478c9c0800000000000000
+      internalID: -3906744811446093207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 130
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d22d43b80c98eb00800000000000000
+      internalID: 858107290195927764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 95
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604a577fa36995660800000000000000
+      internalID: 7375091044799849478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_14
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 93
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7f6adca312d3050800000000000000
+      internalID: 5781814033055676368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_15
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 100
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0caaabf5ca60ee0800000000000000
+      internalID: -1295158315668815671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_16
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 101
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470862b4ba6d074d0800000000000000
+      internalID: -3138772909088669580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 76
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60aa567b97883e960800000000000000
+      internalID: 7630092250045065734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 73
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53051f9b390e7890800000000000000
+      internalID: -7458513781202287781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 82
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d89eb86f4b87a380800000000000000
+      internalID: -8960039760454313772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_20
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 95
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e432beefdb18f10800000000000000
+      internalID: 2270304589735743105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_21
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 97
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f88f48cf6aaa2bd0800000000000000
+      internalID: -2654121633302738698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_22
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 71
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303d7c6e087526990800000000000000
+      internalID: -7394251427049647357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_23
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 36
+        width: 18
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85639b046ed404dc0800000000000000
+      internalID: -3656837246101146024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandThumbless_24
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 28
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bba7601b5d8424d0800000000000000
+      internalID: -3160245616250475600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HandThumbless_0: -5062656432526149641
+      HandThumbless_1: 9050799600867229501
+      HandThumbless_10: 788448530863947272
+      HandThumbless_11: -3906744811446093207
+      HandThumbless_12: 858107290195927764
+      HandThumbless_13: 7375091044799849478
+      HandThumbless_14: 5781814033055676368
+      HandThumbless_15: -1295158315668815671
+      HandThumbless_16: -3138772909088669580
+      HandThumbless_17: 7630092250045065734
+      HandThumbless_18: -7458513781202287781
+      HandThumbless_19: -8960039760454313772
+      HandThumbless_2: 4361333555727525139
+      HandThumbless_20: 2270304589735743105
+      HandThumbless_21: -2654121633302738698
+      HandThumbless_22: -7394251427049647357
+      HandThumbless_23: -3656837246101146024
+      HandThumbless_24: -3160245616250475600
+      HandThumbless_3: 698393502445735911
+      HandThumbless_4: -7266382582357703258
+      HandThumbless_5: -4315336851160220756
+      HandThumbless_6: 9147142114172906844
+      HandThumbless_7: -7375346843361913471
+      HandThumbless_8: -7063027874829280048
+      HandThumbless_9: 6359403237299698714
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

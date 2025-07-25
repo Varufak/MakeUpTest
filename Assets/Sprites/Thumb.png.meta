@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9f8444ceea342b445b291c4a7ab72006
+guid: 59359e37c61d6f54c8137a9dfafd00ff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8171380537145016961
-    second: lipstick_05_0
+      213: -4879764660031096316
+    second: Thumb_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lipstick_05_0
+      name: Thumb_0
       rect:
         serializedVersion: 2
-        x: 952
-        y: 3256
-        width: 92
-        height: 57
+        x: 0
+        y: 0
+        width: 480
+        height: 840
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 182c1110e43966170800000000000000
-      internalID: 8171380537145016961
+      spriteID: 40a775355e7974cb0800000000000000
+      internalID: -4879764660031096316
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: b8bcf69441156964391e2f3643a85c29
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +133,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":480.0,"y":840.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      lipstick_05_0: 8171380537145016961
+      Thumb_0: -4879764660031096316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
