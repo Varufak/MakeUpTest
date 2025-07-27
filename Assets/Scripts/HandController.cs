@@ -29,30 +29,42 @@ public class HandController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
 		clickedObject = EventSystem.current.currentSelectedGameObject;
 		colorIndex = color;
 		tabIndex = 0;
-		StartCoroutine(SequenceCoroutine(0));
-		tabIndex = 1;
+		StartCoroutine(SequenceCoroutine(tabIndex));
 	}
 	public void EyeshadowColorButtonClicked(int color)
 	{
 		clickedObject = EventSystem.current.currentSelectedGameObject;
 		colorIndex = color;
 		tabIndex = 1;
-		StartCoroutine(SequenceCoroutine(1));
-		tabIndex = 0;
+		StartCoroutine(SequenceCoroutine(tabIndex));
+	}
+
+	public void LipstickColorButtonClicked(int color)
+	{
+		clickedObject = EventSystem.current.currentSelectedGameObject;
+		colorIndex = color;
+		tabIndex = 2;
+		StartCoroutine(SequenceCoroutine(tabIndex));
 	}
 
 	private IEnumerator SequenceCoroutine(int tabIndex)
 	{
-		yield return StartCoroutine(HandToBrushAndPick(tabIndex));
-		yield return new WaitForSeconds(0.1f);
+		if (tabIndex < 2)
+		{
+			yield return StartCoroutine(HandToBrushAndPick(tabIndex));
+			yield return new WaitForSeconds(0.1f);
+		}
 		yield return StartCoroutine(HandToColor(tabIndex));
 		yield return new WaitForSeconds(0.1f);
-		yield return StartCoroutine(PaintBrushShake(hand));
-        yield return new WaitForSeconds(0.1f);
-        yield return StartCoroutine(HandToDragPosition());
-    }
+		if (tabIndex < 2)
+		{
+			yield return StartCoroutine(PaintBrushShake(hand));
+			yield return new WaitForSeconds(0.1f);
+		}
+		yield return StartCoroutine(HandToDragPosition());
+	}
 
-    private IEnumerator HandToBrushAndPick(int tabIndex)
+	private IEnumerator HandToBrushAndPick(int tabIndex)
 	{
 		Vector2 start = hand.position;
 		Vector2 end = brushes[tabIndex].transform.position;
@@ -74,8 +86,15 @@ public class HandController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
 	private IEnumerator HandToColor(int tabIndex)
 	{
 		Vector2 start = hand.position;
-		Vector2 end = (Vector2)clickedObject.transform.position + start - (Vector2)brushesInHand[tabIndex].transform.position;
-
+		Vector2 end;
+		if (tabIndex < 2)
+		{
+			end = (Vector2)clickedObject.transform.position + start - (Vector2)brushesInHand[tabIndex].transform.position;
+		}
+		else
+		{
+			end = clickedObject.transform.position;
+		}
 		float t = 0f;
 		while (t < 1f)
 		{
@@ -83,6 +102,7 @@ public class HandController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
 			hand.position = Vector2.Lerp(start, end, t);
 			yield return null;
 		}
+		if (tabIndex == 2) brushesInHand[2].SetActive(true);
 	}
 
 	private IEnumerator PaintBrushShake(RectTransform hand)

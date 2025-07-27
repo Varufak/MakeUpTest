@@ -19,10 +19,10 @@ public class FaceController : MonoBehaviour
         switch (tabIndex)
         {
             case 0:
-                EyeshadowShow(colorIndex);
+                BlushShow(colorIndex);
                 break;
             case 1:
-                BlushShow(colorIndex);
+                EyeshadowShow(colorIndex);
                 break;
             case 2:
                 LipstickShow(colorIndex);
