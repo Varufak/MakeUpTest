@@ -1,4 +1,5 @@
 using System.Collections;
+using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -12,6 +13,7 @@ public class HandController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
 	[SerializeField] private RectTransform hand;
 	[SerializeField] private GameObject[] brushes;
 	[SerializeField] private GameObject[] brushesInHand;
+	[SerializeField] private GameObject[] lipstickColorsInHand;
 	private GameObject clickedObject;
 	private int colorIndex;
 	private int tabIndex;
@@ -102,8 +104,8 @@ public class HandController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
 			hand.position = Vector2.Lerp(start, end, t);
 			yield return null;
 		}
-		if (tabIndex == 2) brushesInHand[2].SetActive(true);
-	}
+		if (tabIndex == 2) ShowInHandColorLipstick();
+    }
 
 	private IEnumerator PaintBrushShake(RectTransform hand)
 	{
@@ -168,6 +170,18 @@ public class HandController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
 		{
 			FaceController._instance.StartShow(tabIndex, colorIndex);
 		}
+	}
+
+	private void ShowInHandColorLipstick()
+	{
+		for (int i = 0; i < brushesInHand.Length; i++)
+		{
+			brushesInHand[i].SetActive(false);
+		}
+        for (int i = 0; i < lipstickColorsInHand.Length; i++)
+        {
+            lipstickColorsInHand[i].SetActive(i == colorIndex);
+        }
 	}
 }
 
